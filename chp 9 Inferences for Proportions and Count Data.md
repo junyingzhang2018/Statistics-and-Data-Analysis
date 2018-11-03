@@ -35,3 +35,11 @@ Observed refers to the observed cell counts ni and expected refer to the expecte
 of the distribution are estimated from the data, then one d.f. is deducted from each independent estimated parameter from the total d.f. c-1.
 
 Feel free to access [my linkedin] (https://www.linkedin.com/in/junyingzhang/)
+
+* Test1
++ Test2
+- Test3
+This is *work*
+This is **work**
+
+### test4
