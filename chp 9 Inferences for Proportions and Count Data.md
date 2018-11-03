@@ -33,3 +33,5 @@ is based on the chi-square statistics having the general form
 `chisq=sum((observed-expected)^2/expected)`
 Observed refers to the observed cell counts ni and expected refer to the expected cell count ei=npio under H0. The degree of freedom of the chi-square statistics are c-1. The primary use of this statistics is for the goodness of fit test of a specified distribution to a set of data. If any parameter 
 of the distribution are estimated from the data, then one d.f. is deducted from each independent estimated parameter from the total d.f. c-1.
+
+Feel free to access [my linkedin] (https://www.linkedin.com/in/junyingzhang/)
