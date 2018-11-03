@@ -3,7 +3,7 @@
 * 1. One sample proportion test for population parameter p from Binomial(n,p)
 Inferences on p are based on the central limit theorem that for large n, the sample proportion p^ is approximately normal with mean p and standard deviation 
 `sqrt(p*q/n)`. A large sample two-sided 95% confidence interval for p is
-`p^+c(-1,1)*qnorm(0.975)*sqrt(P^*q^/n)`
+$p^+c(-1,1)*qnorm(0.975)*sqrt(P^*q^/n)$
 
 A large sample test on p to test H0: P=P0 can be based on the test
 z=(p^-p0)/sqrt(p^q^/n) or z=(p^-p0)/sqrt(p0*q0/n)
