@@ -1,6 +1,8 @@
-# Chp 9 Inferences for Proportions and Count Data
+Chp 9 Inferences for Proportions and Count Data
+===============================================
 
 * 1. One sample proportion test for population parameter p from Binomial(n,p)
+-------------------------------------------------------------------------------
 Inferences on p are based on the central limit theorem that for large n, the sample proportion p^ is approximately normal with mean p and standard deviation 
 `sqrt(p*q/n)`. A large sample two-sided 95% confidence interval for p is
 `p^+c(-1,1)*qnorm(0.975)*sqrt(P^*q^/n)`
