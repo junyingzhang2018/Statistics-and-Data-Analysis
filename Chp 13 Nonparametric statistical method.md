@@ -9,6 +9,7 @@
 Wilcoxon rank sum test and Mann and Whitney U-test
 ## Wilcoxon signed rank test
 `wilcox.test(x, y = NULL, alternative='two.sided', mu=200, conf.level = 0.95)`
+
 `wilcox.test(x, y, alternative = 'two.sided', conf.level = 0.95)`
 ## 4. Inference for several independent samples
 Kruskal-Wallis test~CHISQ(a-1), a is the number of groups
