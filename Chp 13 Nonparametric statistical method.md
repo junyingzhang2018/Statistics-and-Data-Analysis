@@ -15,6 +15,17 @@ Wilcoxon rank sum test and Mann and Whitney U-test
 ## 4. Inference for several independent samples
 Kruskal-Wallis test~CHISQ(a-1), a is the number of groups
 
+Kruskal–Wallis test
+In this case, there is a significant difference in the distributions of values among groups, as is evident both from the histograms and from the significant Kruskal–Wallis test.  Only in cases where the distributions in each group are similar can a significant Kruskal–Wallis test be interpreted as a difference in medians.
+
+```
+kruskal.test(Value ~ Group, 
+             data = Data)
+
+
+Kruskal-Wallis chi-squared = 7.3553, df = 2, p-value = 0.02528
+```
+
 ## 5. Pearson linear correlation Spearman rank correlation coefficient and Kendall rank correlation coefficient
 
 Test for association or correlation between paired samples
