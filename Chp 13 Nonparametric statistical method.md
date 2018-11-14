@@ -1,6 +1,10 @@
 # Chp 13 Nonparametric statistical method
+For nonparametric statistical method, we do not know the distribution of the data. Instead of using mean as the test statistics, we use median as the test statistics. 
 
 ## 1. Sign test for the median of one group
+For example, the null hypothesis is that H0: U<=U0 vs H1: U>U0
+We count the number of xi<=u0 as n- and the number of xi>0 as n+. If the null hypothesis is correct, we should observe the same number of observations <=u0 and the same >u0 since U is the median. The total number of positive number s+~bin(n,0.5)
+So the p-value is P(X>=s+) or P(X<=s-)
 
 ## 2. Wilcoxon signed rank test for median of one group (needs data to be symmetric)
 
