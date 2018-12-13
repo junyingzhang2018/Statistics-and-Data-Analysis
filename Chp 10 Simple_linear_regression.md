@@ -84,6 +84,8 @@ If each ```hii>2*(k+1)/n```, we regard it as the influential point.
 
 ## 10. Variance stabilization transformation using delta method
 If the var(X)=h(u) which is a function of the mean(u), then a suitable variance stabilization transformaiton would be
-y~f(1/sqrt(h(u))du
+
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c78ff79899ef974ae4f025d0c8c2c8b27b994870" />
 
 ## 11. Simple Linear regression example by R
