@@ -53,12 +53,12 @@ So the 95% CI for slope b is
 For the intercept a, ```a^~N(a, (1/n+mean(x)^2/SXX)*sigma2))```
 (a^-a)/(sqrt((1/n+mean(x)^2/SXX)*sigma2)))~t(n-2)
 So the 95% CI for a is
-```a^+-t(0.975, n-2)*sqrt((1/n+mean(x)^2/SXX)*sigma2))```
+```a^+-t(0.975, n-2)*sqrt((1/n+mean(x)^2/SXX)*s^2))```
 
 ## 7. Confidence and prediction interval for u and new yi
 For ```yi^=a^+b^*x0, yi^ ~N(a+b*x0,1/n+(mean(x0)-x0)^2/SXX)*sigma2) )```
 So the 95% confidence interval is
-```a^+b^*x0+c(-1,1)*t(0.975, n-2)*sqrt(1/n+(mean(x0)-x0)^2/SXX)*sigma2)) ```
+```a^+b^*x0+c(-1,1)*t(0.975, n-2)*sqrt(1/n+(mean(x0)-x0)^2/SXX)*s^2)) ```
 
 ## 8. Model diagnosis by residual plot
 * Residual plot of ei vs xi, if there is some pattern, this might means missing other predictor variables in regression
