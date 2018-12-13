@@ -51,14 +51,20 @@ For the slope b, ```b^~N(b, sigma2/SXX)```
 So the 95% CI for slope b is
 ```b^+-t(0.975, n-2)*sqrt(s^2/SXX)```
 For the intercept a, ```a^~N(a, (1/n+mean(x)^2/SXX)*sigma2))```
-(a^-a)/(sqrt((1/n+mean(x)^2/SXX)*sigma2)))~t(n-2)
+(a^-a)/(sqrt((1/n+mean(x)^2/SXX)*s^2)))~t(n-2)
 So the 95% CI for a is
 ```a^+-t(0.975, n-2)*sqrt((1/n+mean(x)^2/SXX)*s^2))```
 
 ## 7. Confidence and prediction interval for u and new yi
 For ```yi^=a^+b^*x0, yi^ ~N(a+b*x0,1/n+(mean(x0)-x0)^2/SXX)*sigma2) )```
 So the 95% confidence interval is
-```a^+b^*x0+c(-1,1)*t(0.975, n-2)*sqrt(1/n+(mean(x0)-x0)^2/SXX)*s^2)) ```
+```a^+b^*x0+c(-1,1)*t(0.975, n-2)*sqrt(1/n+(mean(x)-x0)^2/SXX)*s^2)) ```
+This is the confidence interval for an averaged value around x0.
+
+For a new observation, ```yi=a^+b^*x0+e, yi^ ~N(a+b*x0,1+1/n+(mean(x0)-x0)^2/SXX)*sigma2) )```
+So the 95% prediction interval is
+```a^+b^*x0+c(-1,1)*t(0.975, n-2)*sqrt(1+1/n+(mean(x)-x0)^2/SXX)*s^2)) ```
+This is the prediction interval for a new observation. So it is much wider than the 95% confidence interval. 
 
 ## 8. Model diagnosis by residual plot
 * Residual plot of ei vs xi, if there is some pattern, this might means missing other predictor variables in regression
